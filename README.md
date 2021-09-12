@@ -21,10 +21,11 @@ _Olá, para testar o código siga os requisitos:_
 2. no diretório rodar o comando composer install
         	
 3. `php -S localhost:8000 -t public`
+4. Configurar o arquivi .env com as confiurações de banco de dados do seu ambiente
         	
-4. usar o metodo post para mandar a requisição conforme abaixo
+5. usar o metodo post para mandar a requisição conforme abaixo
 
-5. Usar o campo movement_id que é o id do movement para recuperar qual movement deseja no data do postman.
+6. Usar o campo movement_id que é o id do movement para recuperar qual movement deseja no data do postman.
 
      **POSTMAN:**
        	
