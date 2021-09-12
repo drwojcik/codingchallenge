@@ -21,7 +21,7 @@ _Olá, para testar o código siga os requisitos:_
 2. no diretório rodar o comando composer install
         	
 3. `php -S localhost:8000 -t public`
-4. Configurar o arquivi .env com as confiurações de banco de dados do seu ambiente
+4. Configurar o arquivo .env com as confiurações de banco de dados do seu ambiente
         	
 5. usar o metodo post para mandar a requisição conforme abaixo
 
