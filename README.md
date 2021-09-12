@@ -1,3 +1,39 @@
+# CodingChallenge
+
+End Point REST que retorna recordes de levantamento de peso
+
+_Olá, para testar o código siga os requisitos:_
+
+	
+- Framework Lumen(Laravel)
+	
+- PHP >= 7.3
+    
+- OpenSSL PHP Extension
+    
+- PDO PHP Extension (MySQL foi usado)
+
+- Mbstring PHP Extension
+
+        	
+1. clonar o projeto do repositorio git
+        	
+2. no diretório rodar o comando composer install
+        	
+3. `php -S localhost:8000 -t public`
+        	
+4. usar o metodo post para mandar a requisição conforme abaixo
+
+5. Usar o campo movement_id que é o id do movement para recuperar qual movement deseja no data do postman.
+
+     **POSTMAN:**
+       	
+```
+curl --location --request POST 'http://localhost:8000/ranking' \
+			--header 'Content-Type: application/x-www-form-urlencoded' \
+			--data-urlencode 'movement_id=1'
+```
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
